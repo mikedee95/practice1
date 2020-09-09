@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SurveyForm</title>
+</head>
+<body>
+<h1>Market Research Survey</h1>
+<h2>Please take a moment to complete this satisfaction survey</h2>
+<form>
+    <h3>What is your age range?</h3>
+    <select style="width: 300px">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select>
+    <h3>What is your yealy income?</h3>
+    <select style="width: 700px">
+        <option value="0-$25000">0-$25000</option>
+        <option value="$25001-$50000">$25001-$50000</option>
+        <option value="$50001-$100000">$50001-$100000</option>
+        <option value="$100000+">100000+</option>
+    </select>
+    <h3>Gender Identity</h3>
+    <input type="radio" name="male">Male<br>
+    <input type="radio" name="female">Female<br>
+    <input type="radio" name="nonbinary">Nonbinary<br>
+    <input type="radio" name="other">Other<br>
+    <input type="text">
+    <h3>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h3>
+    <input type="checkbox">Product 1<br>
+    <input type="checkbox">Product 2<br>
+    <input type="checkbox">Product 3<br>
+    <h3>How often would you use our new product?</h3>
+    <input type="radio" name="daily">Daily<br>
+    <input type="radio" name="daily">Weekly<br>
+    <input type="radio" name="daily">Daily<br>
+    <h3>What would you pay for the new product?</h3>
+    <input id="dollars" name="dollars" type="text" value="" size="10" >
+    <input id="cent" name="cent" type="text" value="" size="2" maxlength="2">
+    <p>$</p>
+    <h3>What features would you like to see in the new products?</h3>
+    <textarea cols="70" rows="15" tabindex="0"></textarea>
+</form>
+
+</body>
+</html>
